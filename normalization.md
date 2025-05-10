@@ -2,7 +2,7 @@
 
 ## 📘 Overview
 
-This database schema powers an Airbnb-like application with clearly defined entities for users, properties, bookings, payments, reviews, and messages. It is designed for efficiency, clarity, and normalized to **Third Normal Form (3NF)** to eliminate redundancy and maintain data integrity.
+This database schema is for an Airbnb-like application with clearly defined entities for users, properties, bookings, payments, reviews, and messages. It is designed for efficiency, clarity, and normalized to **Third Normal Form (3NF)** to eliminate redundancy and maintain data integrity.
 
 ---
 
