@@ -106,4 +106,4 @@ Represents communication between users.
 
 To visualize the relationships described above, refer to the ERD diagram below:
 
-![ERD](erd.png)
+![ERD](ERD.png)
