@@ -48,7 +48,7 @@ connection = mysql.connector.connect(
 
 - `seed.py`
 - `0-main.py`
-- `user_data.csv` (Download from [this CSV link](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2024/12/3888260f107e3701e3cd81af49ef997cf70b6395.csv))
+- `user_data.csv` (Download from [this CSV link](user_data.csv))
 
 ### Step 2: Make `0-main.py` executable:
 
