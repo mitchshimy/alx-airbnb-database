@@ -11,6 +11,7 @@ SELECT
     pay.amount,
     pay.payment_date
 FROM bookings b
-JOIN user u ON b.user_id = u.user_id
+JOIN users u ON b.user_id = u.user_id
 JOIN properties p ON b.property_id = p.property_id
-LEFT JOIN payments pay ON b.booking_id = pay.booking_id;
+LEFT JOIN payments pay ON b.booking_id = pay.booking_id
+WHERE b.booking_id IS NOT NULL;
