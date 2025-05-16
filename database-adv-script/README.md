@@ -13,7 +13,7 @@ This repository contains a series of advanced SQL tasks designed to enhance your
 - Write a **LEFT JOIN** query to retrieve all properties and their reviews, including those without reviews.
 - Write a **FULL OUTER JOIN** query to retrieve all users and bookings, even if no matching records exist on either side.
 
-**Files:** 
+**Files:**
 [joins](joins_queries.sql)
 
 ---
@@ -48,8 +48,7 @@ This repository contains a series of advanced SQL tasks designed to enhance your
 - Measure query performance before and after indexing using `EXPLAIN` or `ANALYZE`.
 
 **Files:**  
-`database-adv-script/database_index.sql`  
-`database-adv-script/index_performance.md`
+[Indexes](index_performance.md)
 
 ---
 
