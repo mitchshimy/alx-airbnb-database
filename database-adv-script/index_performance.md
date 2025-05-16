@@ -21,7 +21,7 @@ Identify high-usage columns in the `users`, `bookings`, and `properties` tables 
 
 ## 2. Index Creation Statements
 
-View them here 👉 [](database_index.sql)
+View them here 👉 [Index Creation](database_index.sql)
 
 ---
 
