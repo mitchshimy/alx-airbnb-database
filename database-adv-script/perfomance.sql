@@ -1,3 +1,4 @@
+EXPLAIN
 SELECT 
     b.booking_id,
     b.created_at,
@@ -14,4 +15,4 @@ FROM bookings b
 JOIN users u ON b.user_id = u.user_id
 JOIN properties p ON b.property_id = p.property_id
 LEFT JOIN payments pay ON b.booking_id = pay.booking_id
-WHERE b.booking_id IS NOT NULL;
+WHERE b.booking_id IS NOT NULL AND u.user_id IS NOT NULL;
