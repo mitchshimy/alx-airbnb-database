@@ -10,4 +10,4 @@ This repository contains advanced SQL scripts for the Airbnb database project, f
 - Explicit `INNER JOIN` syntax is used to enhance readability.
 - Column aliasing (`AS property_name`) clarifies the output columns.
 
-Query (joins_queries.sql)
+[Query](joins_queries.sql)
