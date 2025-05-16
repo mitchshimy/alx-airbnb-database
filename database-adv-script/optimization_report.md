@@ -1,4 +1,4 @@
-## Initial Unoptimized Query ([SQL Query](performance.sql))
+## Initial Unoptimized Query ([SQL Query](perfomance.sql))
 
 ### EXPLAIN Analysis and Inefficiencies
 
