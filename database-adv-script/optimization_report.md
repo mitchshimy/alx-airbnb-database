@@ -1,4 +1,4 @@
-## Initial Unoptimized Query ![performance SQL Query](performance.sql)
+## Initial Unoptimized Query [SQL Query](performance.sql)
 
 ### Summary Table
 
