@@ -1,6 +1,6 @@
-## Initial Unoptimized Query [SQL Query](performance.sql)
+## Initial Unoptimized Query ([SQL Query](performance.sql))
 
-### Summary Table
+### EXPLAIN Analysis and Inefficiencies
 
 | Table       | Access Type             | Key Used         | Rows Examined | Extra Info                              |
 |-------------|-------------------------|------------------|----------------|------------------------------------------|
@@ -11,7 +11,7 @@
 
 ---
 
-### 🔍 Key Observations
+#### 🔍 Key Observations
 
 - **Full table scans on `properties`, `bookings`, and `payments`:**  
   The query is scanning the entire tables, indicating that indexes are not being utilized effectively. This becomes a performance issue as data volume increases.
