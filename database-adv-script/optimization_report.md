@@ -1,4 +1,4 @@
-## EXPLAIN Analysis for [performance SQL Query](performance.sql)
+## Initial Unoptimized Query ![performance SQL Query](performance.sql)
 
 ### Summary Table
 
