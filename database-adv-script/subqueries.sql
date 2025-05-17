@@ -1,5 +1,5 @@
 
---Write a query to find all properties where the average rating is greater than 4.0 using a subquery.
+--Write a non-correlated query to find all properties where the average rating is greater than 4.0 using a subquery.
 
 SELECT properties.name AS Property_name
 FROM properties
