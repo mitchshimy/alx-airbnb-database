@@ -1,5 +1,4 @@
 EXPLAIN
-ANAlYZE
 SELECT 
     b.booking_id,
     b.created_at,
