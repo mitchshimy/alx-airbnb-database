@@ -1,3 +1,10 @@
+-- Measure query performance BEFORE indexing
+EXPLAIN ANALYZE
+SELECT u.first_name, u.last_name
+FROM user u
+JOIN bookings b ON u.user_id = b.user_id
+WHERE b.booking_date >= '2024-01-01';
+
 -- Index on user_id in the user table (used in joins and filters)
 CREATE INDEX idx_user_user_id ON user(user_id);
 
@@ -15,3 +22,10 @@ CREATE INDEX idx_properties_pricepernight ON properties(pricepernight);
 
 -- Index on booking_date in the bookings table (if used for filtering or ordering)
 CREATE INDEX idx_bookings_booking_date ON bookings(booking_date);
+
+-- Measure query performance AFTER indexing
+EXPLAIN ANALYZE
+SELECT u.first_name, u.last_name
+FROM user u
+JOIN bookings b ON u.user_id = b.user_id
+WHERE b.booking_date >= '2024-01-01';
